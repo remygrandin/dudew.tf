@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Dude... WTF‽‽‽</h1>
+        <img src="res/1.jpg" alt="Dude... WTF‽‽‽">
+    </div>
+    <script>
+        const images = ["res/1.webp", "res/2.jpg", "res/3.jpg", "res/4.jpg"];
+        const randomImage = images[Math.floor(Math.random() * images.length)];
+        document.querySelector('img').src = randomImage;
+    </script>
+</body>
+</html>
